@@ -1,3 +1,43 @@
 h1 {
     color:brown;
+    font-size: 25px;
+}
+
+.image1 {
+max-width: 300px;
+height: auto;
+border: solid;
+border-width: 1px;
+border-radius: 5px;
+margin-left: 30px;
+}
+
+.aboutMe {
+    width: 60%;
+    height: 200px;
+    background-color: white;
+    margin-right: 30px;
+}
+
+.aboutMe H1 {
+    padding-left: 10px;
+}
+
+.aboutMe p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: grey;
+    min-height: 300px;
+}
+
+.project1 {
+    width: 300px;
+    height: auto;
 }
