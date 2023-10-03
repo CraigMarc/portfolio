@@ -37,7 +37,23 @@ header {
     min-height: 300px;
 }
 
-.project1 {
+.projectPic {
     width: 300px;
     height: auto;
+}
+
+.githubPic {
+    width: 30px;
+    height: auto;
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project {
+    width: 300px;
+    background-color: grey;
 }
