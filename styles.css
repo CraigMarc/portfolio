@@ -71,10 +71,15 @@ header {
 .projectContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 50px;
 }
 
 .githubFooter {
     width: 50px;
     height: auto;
+}
+
+.myWork {
+    padding-left: 50px;
 }
