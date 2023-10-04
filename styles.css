@@ -47,6 +47,10 @@ header {
     height: auto;
 }
 
+.linkPic {
+    padding-left: 5px;
+}
+
 .nameContainer {
     display: flex;
     justify-content: space-around;
@@ -56,4 +60,10 @@ header {
 .project {
     width: 300px;
     background-color: grey;
+}
+
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
 }
