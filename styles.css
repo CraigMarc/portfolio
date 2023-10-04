@@ -2,28 +2,48 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    height: auto;
 }
 
 h1 {
-    color:brown;
+    color: brown;
     font-size: 25px;
 }
 
 .image1 {
-max-width: 300px;
-height: auto;
-border: solid;
-border-width: 1px;
-border-radius: 5px;
-margin-left: 30px;
+    width: 300px;
+    height: auto;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .image1 {
+        width: 80%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 .aboutMe {
     width: 60%;
-    height: 200px;
+    height: auto;
     background-color: white;
-    margin-right: 30px;
+
 }
+
+@media only screen and (max-width: 1000px) {
+    .aboutMe {
+
+        width: 90%;
+        height: auto;
+
+    }
+}
+
+
 
 .aboutMe H1 {
     padding-left: 10px;
@@ -36,12 +56,23 @@ margin-left: 30px;
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    background-color: grey;
+    background-color: #e0d9c5;
     min-height: 300px;
+    padding-bottom: 40px;
 }
+
+@media only screen and (max-width: 1000px) {
+    header {
+        padding-top: 30px;
+        gap: 20px;
+
+    }
+}
+
 
 .projectPic {
     width: 300px;
@@ -65,7 +96,8 @@ header {
 
 .project {
     width: 300px;
-    background-color: grey;
+    box-shadow: 0 0 10px #e0d9c5;
+
 }
 
 .projectContainer {
@@ -73,13 +105,55 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
+    padding-bottom: 50px;
+
+}
+
+.project>p {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
 }
 
 .githubFooter {
-    width: 50px;
+    width: 40px;
     height: auto;
+
 }
 
 .myWork {
-    padding-left: 50px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #e0d9c5;
+    height: auto;
+    width: 100%;
+}
+
+
+
+.contactMe {
+    padding-left: 80px;
+
+}
+
+
+
+.phonePic {
+    padding-right: 20px;
+}
+
+.email {
+    padding-right: 20px;
 }
